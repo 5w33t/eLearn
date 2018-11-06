@@ -5,10 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.google.firebase.analytics.connector.AnalyticsConnector;
-
-import static android.os.SystemClock.sleep;
-
 public class SplashScreen extends AppCompatActivity {
 
     @Override
@@ -19,14 +15,9 @@ public class SplashScreen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(SplashScreen.this, SignIn.class);
-                startActivity(i);
+                startActivity(new Intent(SplashScreen.this, MainActivity.class));
                 finish();
             }
         }, 2000);
-        //sleep(2000);
-        //Intent intent= new Intent(this,SignIn.class);
-        //startActivity(intent);
-        //finish();
     }
 }

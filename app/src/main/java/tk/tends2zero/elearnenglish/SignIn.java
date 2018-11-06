@@ -68,7 +68,9 @@ public class SignIn extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(), "Welcome " + s_email, Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(SignIn.this, MainActivity.class);
                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                         startActivity(intent);
+                        finish();
                     } else {
                         Toast.makeText(getApplicationContext(), task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                     }
@@ -86,6 +88,7 @@ public class SignIn extends AppCompatActivity {
     public void SignUp(View view) {
         Intent start = new Intent(this,SignUp.class);
         start.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        start.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(start);
     }
 

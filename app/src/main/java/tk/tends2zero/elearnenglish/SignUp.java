@@ -80,6 +80,7 @@ public class SignUp extends AppCompatActivity {
                                 Intent intent = new Intent(SignUp.this,SignIn.class);
                                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                                 startActivity(intent);
+                                finish();
                                 //  FirebaseUser user = mAuth.getCurrentUser();
                                 //  updateUI(user);
                             }

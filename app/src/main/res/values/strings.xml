@@ -1,3 +1,19 @@
 <resources>
+
     <string name="app_name">eLearn: English</string>
+
+    <!-- Guided Writing Categories -->
+    <string name="paragraph">Paragraph Writing</string>
+    <string name="story">Story Writing</string>
+    <string name="formal_emails">Formal Email</string>
+    <string name="informal_emails"> Informal Email</string>
+    <string name="informal_letter"> Informal Letters</string>
+    <string name="application"> Formal Letters/Applications</string>
+    <string name="cv">Cover Letter/CV</string>
+    <string name="business_letter">Business Letters</string>
+    <string name="complaint_letter">Complaint Letters</string>
+    <string name="dialog">Dialogue Writing</string>
+    <string name="composition">Composition Writing</string>
+
+
 </resources>

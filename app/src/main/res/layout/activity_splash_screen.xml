@@ -11,14 +11,14 @@
     <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/molecule"
+        android:src="@drawable/bee"
         android:layout_margin="7dp"
         android:layout_gravity="center"
         />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="eLearning: English"
+        android:text="elearn English"
         android:textSize="25dp"
         android:gravity="center"/>
 
