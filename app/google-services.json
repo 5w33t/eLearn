@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "593490650346",
+    "firebase_url": "https://elearn-99326.firebaseio.com",
+    "project_id": "elearn-99326",
+    "storage_bucket": "elearn-99326.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593490650346:android:4d36f9f34287556f",
+        "android_client_info": {
+          "package_name": "tk.tends2zero.elearnenglish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593490650346-njr8m1m9el8isv7naton239hhp98je26.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tk.tends2zero.elearnenglish",
+            "certificate_hash": "5493f0092cd97992a8415ea602d646452ef57136"
+          }
+        },
+        {
+          "client_id": "593490650346-u2kgkqro01l2mdo66f9rkdme8lpig358.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tk.tends2zero.elearnenglish",
+            "certificate_hash": "9c02926bd1e5d1446ff915651324c8d42f2ef37c"
+          }
+        },
+        {
+          "client_id": "593490650346-unjvc2qa4v5b5kqmu8suh2ituu56t9f1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnz7e-pAwvydaLZKatll8RRIZSi3UzZCs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593490650346-unjvc2qa4v5b5kqmu8suh2ituu56t9f1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
